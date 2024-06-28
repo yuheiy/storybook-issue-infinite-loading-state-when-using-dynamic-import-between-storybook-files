@@ -1,0 +1,26 @@
+{
+  "name": "storybook-issue-infinite-loading-state-when-using-dynamic-import-between-storybook-files",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "storybook-test": "storybook dev -p 6007 -c '.storybook-test'",
+    "build-storybook": "storybook build",
+    "build-storybook-test": "storybook build -c '.storybook-test'"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@storybook/react": "^8.1.11",
+    "@storybook/react-vite": "^8.1.11",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "storybook": "^8.1.11",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  }
+}
